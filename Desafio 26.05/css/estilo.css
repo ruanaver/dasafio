@@ -1,0 +1,90 @@
+
+* 
+{  
+ 
+  box-sizing: border-box;
+  font-family: 'Yusei Magic', sans-serif;
+  background-color: gray;
+  
+}
+body
+{
+	
+margin: 0;
+	
+}
+
+
+header 
+{
+  padding: 50px;
+  text-align: center;
+  background-color: gray;
+  color: black;
+  
+}
+.navbar 
+{
+  display: flex;
+  background-color: black;
+  
+}
+
+.navbar a 
+{
+  color: white;
+  padding: 20px 25px;
+  text-decoration: none;
+  text-align: center;
+	width: 100%;
+    height: auto;
+background-color: white;
+}
+
+.navbar a:hover 
+{
+  background-color: #ddd;
+  color: black;
+}
+
+.row 
+{  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side 
+{
+  flex: 10%;
+  padding: 10px;
+}
+
+.main 
+{
+width: 100%;
+  height:600px;
+  padding: 20px;
+}
+
+.fakeimg 
+{
+	width: 90%;
+	padding: 10px;
+	
+}
+
+.rodape
+{
+	clear:both;
+	text-align:center;
+	line-height:50px;
+	
+}
+
+@media screen and (max-width: 700px) 
+{
+  .row, .navbar 
+  {   
+    flex-direction: column;
+  }
+}
